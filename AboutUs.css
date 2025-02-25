@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Futura;
+    src: url(./Futura-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+#page3 {
+  
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    justify-content: space-between;
+}
+
+#page3 .elem {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3 .elem img {
+    height: 10%;
+    width: 100%;
+    object-fit: contain;
+    scale: 1.1;
+}
+
+#page3 .elem .dets {
+    height: 60px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(229, 156, 186);
+}
